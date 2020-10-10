@@ -1,22 +1,50 @@
-.body {
-    background-color: #fff;
-    color: #212121;
+:root {
+    --primary-text-color: #212121;
+    --activ-text-color: #2196F3;
+    --secondary-text-colr: #757575;
 }
 
+body {
+    background-color: #fff;
+    color: var(--primary-text-color);
+}
+/* header */
 .header-link {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .name-company {
-    color: #2196F3;
+    color: var(--activ-text-color);
 }
 
 .list {
 list-style: none;
 }
 
+.site-info a {
+    color: var(--primary-text-color);    
+}
+
 .site-nav a {
-    color: #212121;
+    color: var(--primary-text-color);
+}
+
+.site-info a:hover, 
+.site-info a:focus {
+    color: var(--activ-text-color);
+}
+
+.site-nav a:hover, 
+.site-nav a:focus {
+    color: var(--activ-text-color);
+}
+
+.advantages p {
+    color: var(--secondary-text-colr);
+}
+
+.team p {
+    color: var(--secondary-text-colr);
 }
 
 
