@@ -1,0 +1,29 @@
+.body {
+    background-color: #fff;
+    color: #212121;
+}
+
+.header-link {
+    color: #212121;
+}
+
+.name-company {
+    color: #2196F3;
+}
+
+.list {
+list-style: none;
+}
+
+.site-nav a {
+    color: #212121;
+}
+
+
+
+/* цвет страницы #FFFFFF */
+/* основной цвет текста 212121 */
+/* вторичный цвет текста 757575 */
+/* цвет эффектов 2196F3 */
+/* доп. цвет фона F5F4FA */
+/* цвет подвала 2F303A */
