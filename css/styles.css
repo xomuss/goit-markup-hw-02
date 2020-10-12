@@ -8,7 +8,9 @@ body {
     background-color: #fff;
     color: var(--primary-text-color);
 }
+
 /* header */
+
 .header-link {
     color: var(--primary-text-color);
 }
@@ -39,13 +41,26 @@ list-style: none;
     color: var(--activ-text-color);
 }
 
+/* hero */
+
+
+
+/* advantages */
+
 .advantages p {
     color: var(--secondary-text-colr);
 }
 
+/* examples */
+
+
+/* team */
+
 .team p {
     color: var(--secondary-text-colr);
 }
+
+/* footer */
 
 
 
