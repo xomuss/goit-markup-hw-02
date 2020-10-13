@@ -2,6 +2,9 @@
     --primary-text-color: #212121;
     --activ-text-color: #2196F3;
     --secondary-text-colr: #757575;
+    --secondary-bg-color: #F5F4FA;
+    --primary-bg-color:  #fff;
+    
 }
 
 body {
@@ -29,6 +32,10 @@ list-style: none;
 
 .site-nav a {
     color: var(--primary-text-color);
+}
+
+.site-nav a.current {
+    color: var(--activ-text-color);
 }
 
 .site-info a:hover, 
@@ -61,6 +68,34 @@ list-style: none;
 }
 
 /* footer */
+
+/* button */
+
+.button {
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+}
+
+.button.primary:hover, 
+.button.primary:focus {
+    background-color: var(--activ-text-color);
+    color: var(--primary-bg-color);
+}
+
+.button.primary {
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+}
+
+.button.secondary {
+    background-color: var(--activ-text-color);
+    color: var(--primary-bg-color);
+}
+
+.button.secondary.current {
+    background-color: var(--activ-text-color);
+    color: var(--primary-bg-color);
+}
 
 
 
