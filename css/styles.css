@@ -11,6 +11,7 @@ body {
     background-color: #fff;
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 /* header */
@@ -18,10 +19,12 @@ body {
 .header-link {
     color: var(--primary-text-color);
     font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
 }
 
 .name-company {
-    color: var(--activ-text-color);S
+    color: var(--activ-text-color);
 }
 
 .list {
@@ -29,11 +32,19 @@ list-style: none;
 }
 
 .site-info a {
-    color: var(--primary-text-color);    
+    color: var(--primary-text-color); 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;   
 }
 
 .site-nav a {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav a.current {
@@ -52,13 +63,47 @@ list-style: none;
 
 /* hero */
 
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
 
+.hero button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
 
 /* advantages */
 
 .advantages p {
     color: var(--secondary-text-colr);
+
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
 }
+
+.advantages h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
 
 /* examples */
 
@@ -67,9 +112,34 @@ list-style: none;
 
 .team p {
     color: var(--secondary-text-colr);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
 }
 
 /* footer */
+
+footer > p {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.14;
+}
+
+footer > address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
 
 /* button */
 
