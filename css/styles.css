@@ -130,21 +130,14 @@ line-height: 1.71;
 
 /* footer */
 
-footer > p {
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.14;
-}
-
-footer > address {
+.footer-address {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;    
 }
 
-footer a {
+.footer-address a {
     color: var(--primary-text-color);
     text-decoration: none;
 }
